@@ -85,9 +85,7 @@ for idx in range(len(x_train)):
 
 scaled_data = [sj_scaled, iq_scaled]
 
-# XGBoost
-
-
+#Class 
 class Model:
     def training(self, X, y, estimator):
         estimator.fit(X, y)
